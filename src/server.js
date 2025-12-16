@@ -13,6 +13,10 @@ app.use("/dashboard", dashboardRoutes);
 
 const PORT = process.env.PORT || 5000;
 
+app.get("/", (req, res) => {
+  res.send("NGO Reporting Backend is running");
+});
+
 app.listen(PORT, () => {
   console.log(`Backend running on port ${PORT}`);
 });
