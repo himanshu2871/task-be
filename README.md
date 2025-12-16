@@ -44,6 +44,6 @@ NGO002,2024-01,250,6,120000
 
 How to start:
 
-cd ngo-reporting-backend
+cd task-be
 npm install
 npm start
